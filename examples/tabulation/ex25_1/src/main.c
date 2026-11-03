@@ -15,6 +15,7 @@
 int main()
 {
    
+	
 	double a = 0.0, b = 5.0, h = 0.1;
 
 	printf("x\t\tf(x)\n");
