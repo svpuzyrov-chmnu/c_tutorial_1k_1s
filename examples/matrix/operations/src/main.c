@@ -45,6 +45,19 @@ int main()
 
         }
     }
+
+    {
+        int i;
+        for (i = 0; i < ROWS; ++i)
+        {
+            int j;
+            for (j = 0; j < COLS; ++j)
+            { 
+                mr[i][j] = mr[i][j] - 2.0 * cos(i * 1.0/(2.0 + j));
+            }
+
+        }
+    }
     
     PRINT_MATRIX(mr, ROWS, COLS);
     printf("-----------------------\n");
