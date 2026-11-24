@@ -12,7 +12,7 @@ int main()
     int size = sizeof(array) / sizeof(array[0]);
 
     int i;
-    
+
     //Fill array by random numbers
 
     /*for (i = 0; i < size; ++i)
