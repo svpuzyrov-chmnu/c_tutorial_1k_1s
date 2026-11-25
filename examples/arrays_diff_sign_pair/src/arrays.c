@@ -1,4 +1,5 @@
 #include "arrays.h"
+#include <stdio.h>
 
 int count_diff_sign_pair(int a[], int size)
 {
